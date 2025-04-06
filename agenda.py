@@ -100,7 +100,7 @@ def buscarContatopeloNome():
             print(contato)
     agenda.close()
 def  sair():
-    print(f'ate mais....!!')
+    print(f'ate mais...!!')
     exit()
 
 def main():
