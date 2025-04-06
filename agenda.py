@@ -89,7 +89,7 @@ def deletarContato():
     agenda = open("agenda.txt","w")
     for i in aux2:
         agenda.write(i)
-    print(f'Contato deletado com sucesso!')
+    print(f'Contato deletado com sucesso!!')
     listarContato()
 
 def buscarContatopeloNome():
@@ -100,7 +100,7 @@ def buscarContatopeloNome():
             print(contato)
     agenda.close()
 def  sair():
-    print(f'ate mais...!!')
+    print(f'ate mais!!')
     exit()
 
 def main():
